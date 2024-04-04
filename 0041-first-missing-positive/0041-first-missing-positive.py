@@ -1,5 +1,6 @@
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
+        # if list is empty return 1
         if not nums:
             return 1
         nums_set = set(nums)
