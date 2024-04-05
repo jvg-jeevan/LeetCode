@@ -6,6 +6,10 @@ class Solution:
         #         return i
 
         res = nums[0]
+        # take res as 1st element
         for x in range (1, len(nums)):
+            # iterate through the loop 
             res ^= nums[x]
         return res
+        # xor operation of same number results in zero
+        # xor operation of zero and a number results in number
