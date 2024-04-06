@@ -18,6 +18,8 @@ class Solution:
         #         break
         # return result
 
+# i in range(len(arr)), j in range(i), check for condition i.e number is double
+# if any one is double retrun True else False
         for i in range(len(arr)):
             for j in range(i):
                 if arr[i] == 2 * arr[j] or arr[j] == 2 * arr[i]:
