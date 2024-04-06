@@ -11,7 +11,10 @@ class Solution:
 
         total = numBottles  # Total bottles drank
         while numBottles >= numExchange:
-            exchanged = numBottles // numExchange  # Number of bottles exchanged
-            total += exchanged  # Add exchanged bottles to total
-            numBottles = exchanged + numBottles % numExchange  # Calculate remaining bottles after exchange
+# Number of bottles exchanged 
+            exchanged = numBottles // numExchange  
+# Add exchanged bottles to total as exchanged bottles will be dranked
+            total += exchanged  
+# Calculate remaining bottles after exchange i.e exchanged bottles and remaining bottles couldnot exchanges
+            numBottles = exchanged + numBottles % numExchange  
         return total
