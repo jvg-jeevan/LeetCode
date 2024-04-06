@@ -8,7 +8,7 @@ Structure:
 
 Usage:
 - Browse the folders to find the problem you're interested in.
-- Each problem folder contains solutions in both Python and Java. Choose the one that suits you best.
+- Each problem folder contains solutions in either Python or Java. Choose the one that suits you best.
 - You can directly copy the code or clone the repository to your local machine.
 
 Contact:
