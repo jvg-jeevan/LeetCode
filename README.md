@@ -1,4 +1,4 @@
-****LeetCode Solutions (Python/Java)****
+****LeetCode Solutions (Python)****
 
 Welcome to the repository containing solutions for LeetCode problems! This repository is dedicated to organizing and sharing solutions for various LeetCode problems using Python or Java programming languages.
 
