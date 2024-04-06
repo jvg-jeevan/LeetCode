@@ -9,4 +9,5 @@ class Solution:
         for i in range(1, len(stud) - 1):
             if stud[i] == 'L' and stud[i-1] == 'L' and stud[i+1] == 'L':
                 return False
+# if all the neagative condition fails return True
         return True
