@@ -1,18 +1,26 @@
 class Solution:
     def shortestToChar(self, s: str, c: str) -> List[int]:
-        string = list(map(str, s))
-        ind_list = []
-        for i in range(len(string)):
-            if string[i] == c:
-                ind_list.append(i)
-        out_list = []
-        for i in range(len(string)):
-            if string[i] == c:
-                out_list.append(0)
-            else:
-                min_list = []
-                for j in ind_list:
-                    min_list.append(abs(i-j))
-                out_list.append(min(min_list))
+# convert the string_list to list
+        string_list = list(map(str, s))
 
-        return out_list
+# create a list to store index of c in the string_list
+        index_list = [i for i in range(len(string_list)) if string_list[i]==c]
+
+# create a list res to store difference of element index and c index
+        res = []
+
+# iterate through the list 
+        for i in range(len(string_list)):
+        # if element is same as c add 0 to list
+
+            if string_list[i] == c:
+                res.append(0)
+                
+        # get the min difference of index of element and index of c
+            else:
+            # for every occurrence of index find the difference
+                min_list = [abs(i-j) for j in index_list]
+            # append the min difference to res
+                res.append(min(min_list))
+# return the res
+        return res
