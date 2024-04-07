@@ -5,4 +5,4 @@ class Solution:
         for i in words:
             result.extend(i.split(separator))
 # if the 
-        return [x for x in result if x != '']
+        return [result[x] for x in range(len(result)) if result[x] != '']
