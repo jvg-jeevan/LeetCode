@@ -1,5 +1,6 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
+# if length of
         if len(set(sorted(s))) != len(set(sorted(t))):
             return False
         dict1 = {}
