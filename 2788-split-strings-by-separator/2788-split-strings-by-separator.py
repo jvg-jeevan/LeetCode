@@ -4,5 +4,5 @@ class Solution:
         result = []
         for i in words:
             result.extend(i.split(separator))
-# if the 
-        return [result[x] for x in range(len(result)) if result[x] != '']
+# if the string element is empty then remove that element
+        return [x for x in result if x != '']
