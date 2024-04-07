@@ -7,3 +7,4 @@ class Solution:
             if i >= target:
                 result += 1
         return result
+    # return the result
