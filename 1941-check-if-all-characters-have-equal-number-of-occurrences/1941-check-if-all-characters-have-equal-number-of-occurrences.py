@@ -4,7 +4,8 @@ class Solution:
         arr = sorted(s)
 # dict1 to store the occurrences
         dict1 = {}
+# key= character, value= count of character
         for i in set(arr):
             dict1[i] = arr.count(i)
-# set() removes duplicate elements and if lenght of that is 1 then all values will be same
+# set() removes duplicate elements and if lenght of that is 1 then all values will be same 
         return len(set(dict1.values())) == 1
