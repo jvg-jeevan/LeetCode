@@ -1,12 +1,24 @@
 class Solution:
     def finalValueAfterOperations(self, operations: List[str]) -> int:
-        res = 0
-# initialize res
+
+# # approach 1
+#         res = 0
+# # initialize res
+#         for char in operations:
+#         # if decrement then -1
+#             if char in ['--X', 'X--']:
+#                 res -= 1
+#         # if increment then +1
+#             else:
+#                 res += 1
+#         return res
+
+        X = 0
         for char in operations:
-        # if decrement then -1
-            if char in ['--X', 'X--']:
-                res -= 1
-        # if increment then +1
+        # if + is found in each operation increment
+            if '+' in char:
+                X += 1
+        # if - decrement
             else:
-                res += 1
-        return res
+                X -= 1
+        return X
