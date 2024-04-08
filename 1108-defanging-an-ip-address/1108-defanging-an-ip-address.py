@@ -16,3 +16,4 @@ class Solution:
 
 # approach 3
         return '[.]'.join(address.split('.'))
+# split() the string to list at separator '.' then join the list elements with [.]
