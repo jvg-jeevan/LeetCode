@@ -13,6 +13,7 @@ class Solution:
 #                 res += 1
 #         return res
 
+# approach 2
         X = 0
         # initialize X
         for char in operations:
