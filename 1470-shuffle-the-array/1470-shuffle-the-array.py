@@ -1,6 +1,6 @@
 class Solution:
     def shuffle(self, nums: List[int], n: int) -> List[int]:
-    # divide the list nums into 2 parts of n elements
+    # divide the list nums into 2 parts of n elements each
         num1 = nums[:n]
         num2 = nums[n:]
         res = []
