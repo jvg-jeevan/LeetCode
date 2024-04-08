@@ -14,6 +14,7 @@ class Solution:
 #         return res
 
         X = 0
+        # initialize X
         for char in operations:
         # if + is found in each operation increment
             if '+' in char:
