@@ -16,5 +16,5 @@ class Solution:
             else:
                 result += char
         return result
-# create a variable result to store the result string iterate through the string address and if char is '.' then add '[.]' to result or else add the char
+# initialize a variable result to store the result string iterate through the string address and if char is '.' then add '[.]' to result or else add the char
 
