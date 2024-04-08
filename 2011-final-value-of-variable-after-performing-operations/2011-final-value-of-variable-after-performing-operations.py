@@ -1,6 +1,5 @@
 class Solution:
     def finalValueAfterOperations(self, operations: List[str]) -> int:
-
 # # approach 1
 #         res = 0
 # # initialize res
