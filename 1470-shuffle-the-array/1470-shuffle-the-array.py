@@ -6,7 +6,7 @@ class Solution:
         res = []
         # zip() gets each element from num1 and num2 at a time 
         for x, y in zip(num1, num2):
-            # append x and y to res
+            # append x and y to res and return res
             res.append(x)
             res.append(y)
         return res
