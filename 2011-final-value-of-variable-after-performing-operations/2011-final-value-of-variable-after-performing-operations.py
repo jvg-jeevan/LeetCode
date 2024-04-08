@@ -18,7 +18,7 @@ class Solution:
         # if + is found in each operation increment
             if '+' in char:
                 X += 1
-        # if - decrement
+        # if not + or - decrement
             else:
                 X -= 1
         return X
