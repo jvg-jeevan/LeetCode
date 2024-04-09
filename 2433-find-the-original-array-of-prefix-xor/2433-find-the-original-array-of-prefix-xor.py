@@ -8,6 +8,6 @@ class Solution:
         for i in range(n):
 # for each element in list pref get the xor and store in arr at ith position
             arr[i] = xor ^ pref[i]
-# xor ^ arr[i] will be the new xor value
+# xor ^ arr[i] will be the new xor value i.e used in above ^ operation
             xor ^= arr[i]
         return arr
