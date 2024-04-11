@@ -11,5 +11,5 @@ class Solution:
             visit.add(n)
         # to get the sum of squares of digits and assign the same to n
             n = sum(int(i)**2 for i in str(n))
-    # if no elements in visited are repeated then True (until n becomes 1)
+    # if num becomes 1 then return True
         return True
