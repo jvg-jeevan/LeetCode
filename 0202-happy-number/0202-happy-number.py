@@ -1,6 +1,6 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
-    # visit is a set to store visited numeber
+    # visit is a set to store visited number
         visit = set()
     # while n not equal to 1
         while n != 1:
