@@ -4,7 +4,7 @@ class Solution:
         visit = set()
     # while n not equal to 1
         while n != 1:
-# if number is already in visit then number is False beacuse repeated number results in same
+# if number is already in visit then number is False beacuse repeated number results same value multiple tims
             if n in visit:
                 return False
             # if n not in visit add n to set(visit)
