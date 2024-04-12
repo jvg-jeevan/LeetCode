@@ -7,4 +7,5 @@ class Solution:
 # sort the dict1 as per values
         dict1 = dict(sorted(dict1.items(), key= lambda item: item[1], reverse=True))
         res = list(dict1.keys())
-        return res[:k]        
+# return the keys until k number of elements
+        return res[:k]
