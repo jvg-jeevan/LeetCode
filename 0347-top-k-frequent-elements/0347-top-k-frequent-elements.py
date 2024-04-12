@@ -6,6 +6,6 @@ class Solution:
             dict1[i] = nums.count(i)
 # sort the dict1 as per values
         dict1 = dict(sorted(dict1.items(), key= lambda item: item[1], reverse=True))
-        res = list(dict1.keys())
+        # res = 
 # return the keys until k number of elements
-        return res[:k]
+        return list(dict1.keys())[:k]
