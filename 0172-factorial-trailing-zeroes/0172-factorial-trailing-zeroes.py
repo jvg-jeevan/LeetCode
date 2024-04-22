@@ -9,7 +9,10 @@ class Solution:
             fact = self.factorial(n)
         else:
             fact = 1
+
         result = 0
+        if fact % 5 != 0:
+            return result
         while fact > 9:
             if fact % 10 == 0:
                 result += 1
