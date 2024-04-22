@@ -13,7 +13,7 @@ class Solution:
 # if curr_diff is less than initial diff then update the diff 
             if curr_diff < diff:
                 diff = curr_diff
-# result.clear() beacause to clear the pairs those difference less than current
+# result.clear() beacause to clear the pairs those diff less than curr_diff
                 result.clear()
 # append() the current pairs
                 result.append([arr[i], arr[i+1]])
