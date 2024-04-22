@@ -22,5 +22,5 @@ class Solution:
             elif curr_diff == diff:
                 result.append([arr[i], arr[i+1]])
             
-# return the resultant pairs
+# return the result pairs
         return result
