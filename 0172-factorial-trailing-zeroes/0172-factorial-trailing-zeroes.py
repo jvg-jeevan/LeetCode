@@ -24,3 +24,16 @@ class Solution:
             else:
                 break
         return result
+
+# # convert the number to list of digits
+#         fact = list(map(int, str(fact)))[::-1]
+#         result = 0
+#     # reverse (because trailing zeros) the list and iterate through the loop 
+#         for i in fact:
+#         # if digit is 0 the increment result
+#             if i == 0:
+#                 result += 1
+#         # if non zero break out of loop and return the result
+#             else:
+#                 break
+#         return result
