@@ -7,4 +7,5 @@ class Solution:
         matrix[:] = [list(row) for row in zip(*matrix)]
         # for each row in the matrix reverse the elements in the row
         for row in matrix:
-            row.reverse()
+            # row.reverse()
+            row[:] = row[::-1]
