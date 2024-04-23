@@ -3,7 +3,7 @@ class Solution:
 # get the length of the num - 1 (because 0 indexing)
         i = len(num) - 1
 # go through the num from rightmost end and check if even then continue if odd break out of loop 
-        while (i >= 0) and (int(num[i]) % 2 != 0):
+        while (i >= 0) and (int(num[i]) % 2 == 0):
             i -= 1
 # if any digit in num is odd then return the num until that digit
         return num[:i+1] if i >=0 else ''
