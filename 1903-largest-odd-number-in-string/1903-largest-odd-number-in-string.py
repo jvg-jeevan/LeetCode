@@ -10,7 +10,7 @@ class Solution:
 # if no digits found then return ''
 
 
-
+# approach 2 
 # # if num is odd then return the number
 #         if int(num) % 2 != 0:
 #             return num
