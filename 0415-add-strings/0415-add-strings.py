@@ -1,6 +1,6 @@
 class Solution:
     def addStrings(self, num1: str, num2: str) -> str:
-# change the limit
+# This line attempts to set the maximum number of digits for integers to 10000
         sys.set_int_max_str_digits(10000)
 # converting str to int using dict() for each key get the value and multiply num by 10 and the value
         values = {'1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '0': 0}
