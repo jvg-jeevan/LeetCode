@@ -8,7 +8,6 @@ class Solution:
         for x in num1:
             number1 = (number1 * 10) + values[x]
 
-
 # converting str to int using ord() by getting unicode value of each digit (from 48 to 58) and subtracting it with ord('0') -> 48 gives the number
         number2 = 0
 # for each digit after converting to int, multiply num with 10 and add the digit
