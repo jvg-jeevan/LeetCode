@@ -7,5 +7,5 @@ class Solution:
 # if the 1st number is 0 then number will be zero
         if nums[0] == '0':
             return '0'
-# return the str of the sorted nums
+# return the str of list by joining
         return ''.join(nums)
