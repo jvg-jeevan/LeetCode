@@ -7,7 +7,7 @@ class Solution:
 # get the length of both the strings
         s1 = len(str1)
         s2 = len(str2)
-# return the substring until gcd
+# return the substring until gcd of the lenghts
         return str2[:gcd(s1, s2)]
 
 
