@@ -6,3 +6,4 @@ select
         else 0
     end as bonus
 from Employees
+order by employee_id
