@@ -1,4 +1,5 @@
 # Write your MySQL query statement below
+-- get the count of unique lead_id and partner_id
 select 
     date_id, make_name, 
     count(distinct lead_id) as unique_leads,
