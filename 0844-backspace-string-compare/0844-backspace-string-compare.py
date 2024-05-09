@@ -21,9 +21,10 @@ class Solution:
                 res.append(string[i])
 # if char = '#' remove the last element i.e backspace deletes the char
             else:
-# if len(res) is zero then cannot delete element
+# if len(res) is zero then cannot delete element continue
                 if len(res) == 0:
                     continue
+# if elements are in res then remove the last element
                 else:
                     res.pop()
 # return res in form of str
