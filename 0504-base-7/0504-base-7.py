@@ -17,5 +17,5 @@ class Solution:
         if num < 0:
             res += '-'
 
-# return the reverse of res 
+# return the reverse of res string
         return res[::-1]
