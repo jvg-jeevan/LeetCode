@@ -1,16 +1,11 @@
 class Solution:
     def backspaceCompare(self, s: str, t: str) -> bool:
 
-# call the method for both the str s, t
-        str1 = self.remove(s)
-        str2 = self.remove(t)
-        print(str1)
-        print(str2)
-# check for equality of str1 and str2
-        return str1 == str2
+# check for equality of s and s
+        return self.remove_backspace(s) == self.remove_backspace(t)
 
     
-    def remove(self, string):
+    def remove_backspace(self, string):
         """Method checks for # (backspace) and removes the char if present"""
 # res to store resultant list of chars
         res = []
