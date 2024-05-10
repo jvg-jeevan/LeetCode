@@ -2,7 +2,7 @@ from collections import Counter
 
 class Solution:
     def topKFrequent(self, words: list[str], k: int) -> list[str]:
-# sort the words to get in order
+# sort the words to get in lexological order
         words.sort()
 # count the occurrences of the elements in list usnig Counter()
         res = Counter(words)
