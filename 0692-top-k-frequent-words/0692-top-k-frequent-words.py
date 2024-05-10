@@ -2,6 +2,8 @@ from collections import Counter
 
 class Solution:
     def topKFrequent(self, words: list[str], k: int) -> list[str]:
+# sort the words to get in order
+        words.sort()
 # count the occurrences of the elements in list usnig Counter()
         res = Counter(words)
 # sort the dict based on the values
