@@ -2,6 +2,7 @@ from collections import Counter
 
 class Solution:
     def frequencySort(self, s: str) -> str:
+        
 # sorted of the string input s results in sorted list of chars
         res = sorted(s)
 # Counter() creates the dict(), key= char, value= number of occurrences
