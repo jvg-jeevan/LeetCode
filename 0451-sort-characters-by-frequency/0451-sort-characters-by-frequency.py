@@ -7,10 +7,11 @@ class Solution:
 # Counter() creates the dict(), key= char, value= number of occurrences
         res = Counter(res)
 
-# ans to store the result to return
-        ans = ''
 # sort the dict based on values
         res = dict(sorted(res.items(), key= lambda items: items[1], reverse= True))
+
+# ans to store the result to return
+        ans = ''
 
 # iterate throught each item in dict add the number of chars to ans
         for key, val in res.items():
