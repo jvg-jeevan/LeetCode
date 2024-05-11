@@ -1,5 +1,7 @@
 class Solution:
     def countPrefixes(self, words: List[str], s: str) -> int:
+
+# approach 1
 # res to store the count of elements
         res = 0
 # for each word in words
@@ -10,12 +12,12 @@ class Solution:
 # return the res
         return res
 
-# approach 2
-# count to store result
-        count = 0
-# for each word in words
-        for word in words:
-# if substring of s[to lenof word] is equal to word increment count
-            if s[0:len(word)] == word:
-                count+=1
-        return count
+# # approach 2
+# # count to store result
+#         count = 0
+# # for each word in words
+#         for word in words:
+# # if substring of s[to lenof word] is equal to word increment count
+#             if s[0:len(word)] == word:
+#                 count+=1
+#         return count
