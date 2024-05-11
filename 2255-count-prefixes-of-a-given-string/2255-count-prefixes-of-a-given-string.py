@@ -9,3 +9,13 @@ class Solution:
                 res += 1
 # return the res
         return res
+
+# approach 2
+# count to store result
+        count = 0
+# for each word in words
+        for word in words:
+# if substring of s[to lenof word] is equal to word increment count
+            if s[0:len(word)] == word:
+                count+=1
+        return count
