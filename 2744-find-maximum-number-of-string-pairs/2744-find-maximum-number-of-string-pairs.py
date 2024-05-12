@@ -5,8 +5,10 @@ class Solution:
         res = Counter(tuple(sorted(each)) for each in words)
 # ans to store the occurrences
         ans = 0
-# check if pairs increment pairs
+# for each (key, value) pair
         for key, val in res.items():
+# check if pairs increment pairs 
+
             if val == 2:
                 ans += 1
 # return the number of pairs
