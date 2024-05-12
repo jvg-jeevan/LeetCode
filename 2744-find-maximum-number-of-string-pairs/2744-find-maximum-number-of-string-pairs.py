@@ -8,7 +8,6 @@ class Solution:
 # for each (key, value) pair
         for key, val in res.items():
 # check if pairs increment pairs 
-
             if val == 2:
                 ans += 1
 # return the number of pairs
