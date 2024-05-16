@@ -15,5 +15,5 @@ class Solution:
             elif (i % 2 != 0) and (res[i] == 1):
                 odd += 1
 
-# return the list with even, odd count
+# return the list with [even, odd] count
         return [even, odd]
