@@ -4,7 +4,6 @@ class Solution:
         vowels = ['a', 'e', 'i', 'o', 'u']
 # initialize res to store the count
         res = 0
-
 # iterate through each word in words from left to right inclusive
         for word in words[left: right+1]:
 # if 1st and last char in word is in vowels list increment res
