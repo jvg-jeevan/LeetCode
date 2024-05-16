@@ -1,6 +1,6 @@
 class Solution:
     def vowelStrings(self, words: List[str], left: int, right: int) -> int:
-# create a list with vowels
+# create a list of vowels
         vowels = ['a', 'e', 'i', 'o', 'u']
 # initialize res to store the count
         res = 0
