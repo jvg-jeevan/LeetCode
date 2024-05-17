@@ -1,6 +1,7 @@
 class Solution:
     def matrixSum(self, nums: list[list[int]]) -> int:
-        
+
+# approach 1 taking indivisual element 
 # res to store the resultant sum
         res = 0
         
