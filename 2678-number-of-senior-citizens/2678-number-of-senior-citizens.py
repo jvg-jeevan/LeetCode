@@ -7,5 +7,5 @@ class Solution:
 # num[11:13] gives the age of passanger is strictly greater than 60 increment res
             if int(num[11:13]) > 60:
                 res += 1
-# return the number of passangers greater than age 60
+# return the number of passangers
         return res
