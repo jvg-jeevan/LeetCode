@@ -9,5 +9,5 @@ class Solution:
                 pos += 1
             elif num < 0:
                 neg += 1
-# return the maximum among pos and neg count
+# return the maximum among pos and neg
         return max(pos, neg)
