@@ -31,5 +31,5 @@ class Solution:
         res = dict(sorted(res.items(), key=lambda item: (-item[1], item[0])))
         print(res)
         
-# return the top k students
+# return the top k student_id (key)
         return list(res.keys())[:k]
