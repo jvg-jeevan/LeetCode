@@ -1,6 +1,7 @@
 class Solution:
     def digitSum(self, string: str, k: int) -> str:
 
+# if input length is less than or equal to k return string as it is
 # continue the execution only when len(string) > k
         while len(string) > k:
 # map() each char to int and convert that to list
