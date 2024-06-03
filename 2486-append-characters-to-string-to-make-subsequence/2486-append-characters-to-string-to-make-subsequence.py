@@ -12,4 +12,5 @@ class Solution:
 # increment the i to check for next char
             i += 1
 
+# return the remaining length of t that is not in s as a subsequence 
         return len(t) - j
