@@ -7,7 +7,6 @@ class Solution:
 
 # card_count stores the count of each card in hand stores in form of dict
         card_count = Counter(hand)
-
 # sort the keys in increasing order and store in hands
         hands = sorted(card_count)
 
