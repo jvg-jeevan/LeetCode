@@ -9,5 +9,5 @@ class Solution:
 # if element at position are not equal then increment res 
             if he != ex:
                 res += 1
-# return the result res
+# return the res
         return res
