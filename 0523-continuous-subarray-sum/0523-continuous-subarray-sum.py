@@ -20,9 +20,11 @@ class Solution:
                 if i - remainder_map[remainder] > 1:
 # if found any array satisfying condition then return true
                     return True 
+
 # if remainder not in remainder_map
             else:
 # then store the current index for the remainder
                 remainder_map[remainder] = i
+                
 # if no array found then return False
         return False
