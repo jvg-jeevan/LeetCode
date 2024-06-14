@@ -1,7 +1,15 @@
 class Solution:
     def minNumber(self, nums1: List[int], nums2: List[int]) -> int:
+
+# appraoch 1
 # check if any number exists in both the lists
-        nums3 = [i for i in nums1 if i in nums2]
+        # nums3 = [i for i in nums1 if i in nums2]
+
+# approah 2
+# set intersection method
+        nums3 = set(nums1) & set(nums2)
+
+
 # if any element exists in nums3 then return the minimum element
         if nums3:
             return min(nums3)
