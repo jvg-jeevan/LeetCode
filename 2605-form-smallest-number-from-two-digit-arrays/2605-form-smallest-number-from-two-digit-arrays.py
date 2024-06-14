@@ -9,8 +9,7 @@ class Solution:
 # set intersection method
         nums3 = set(nums1) & set(nums2)
 
-
-# if any element exists in nums3 then return the minimum element
+# if any element exists in nums3 then return the minimum element of nums3
         if nums3:
             return min(nums3)
         
